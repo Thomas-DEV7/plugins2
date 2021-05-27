@@ -1,0 +1,32 @@
+{
+    "name": "monaca-template-onsenui-v2-js-minimum",
+    "version": "2.3.0",
+    "dependencies": {
+        "cordova-plugin-splashscreen": "6.0.0",
+        "cordova-plugin-whitelist": "1.3.4",
+        "monaca-plugin-monaca-core": "3.3.1",
+        "cordova-plugin-dialogs": "2.0.2",
+        "cordova-plugin-camera": "5.0.1",
+        "cordova-custom-config": "5.1.0",
+        "phonegap-plugin-barcodescanner": "8.1.0"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-whitelist": {},
+            "monaca-plugin-monaca-core": {},
+            "cordova-plugin-dialogs": {},
+            "cordova-plugin-camera": {},
+            "cordova-custom-config": {},
+            "phonegap-plugin-barcodescanner": {}
+        }
+    },
+    "scripts": {
+        "monaca:preview": "npm run dev",
+        "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "cordova": "^10.0.0"
+    }
+}
